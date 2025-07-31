@@ -294,7 +294,7 @@ def get_system_info() -> str:
         f"- Gaming Service: Jio Games\n"
         f"- App Store: Jio Store\n"
         f"- Media Database: {db_status}\n"
-        f"- Fuzzy Search: Enabled (70% threshold)\n"
+        
     )
 api_key = "api_key"
 @mcp.tool()
