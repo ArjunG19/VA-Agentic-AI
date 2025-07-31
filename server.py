@@ -4,6 +4,7 @@ from rapidfuzz import process, fuzz
 from typing import Optional
 import os
 import logging
+import requests
 
 # Simple logging setup
 logging.basicConfig(level=logging.INFO)
@@ -295,6 +296,64 @@ def get_system_info() -> str:
         f"- Media Database: {db_status}\n"
         f"- Fuzzy Search: Enabled (70% threshold)\n"
     )
+api_key = "api_key"
+@mcp.tool()
+def get_weather_by_location_name(place_name):
+    """
+    Get current weather data for a location by name.
+
+    Args:
+        place_name (str): Name of the place (city, address, landmark, etc.).
+
+    Returns:
+        dict:
+            Dictionary with important weather details, including:
+                - location: The place name used
+                - temperature_celsius: Current temperature in °C
+                - condition: Weather description (e.g., "Partly sunny")
+                - humidity_percent: Relative humidity (%)
+                - wind_speed_kmh: Wind speed (km/h)
+                - wind_direction: Wind direction (cardinal)
+                - precipitation_probability_percent: Chance of rain (%)
+                - uv_index: Ultraviolet index
+                - time_zone: Time zone ID for the location
+            On error or if no data is found, returns an error dictionary.
+    """
+    # Step 1: Get coordinates from location name
+    encoded_place = urllib.parse.quote(place_name)
+    geocode_url = f"https://maps.googleapis.com/maps/api/geocode/json?address={encoded_place}&key={api_key}"
+    geo_resp = requests.get(geocode_url)
+    if geo_resp.status_code != 200:
+        return {"error": geo_resp.status_code, "msg": geo_resp.text}
+    geo_data = geo_resp.json()
+    if not geo_data.get("results"):
+        return {"error": "No results from Geocoding API"}
+    location = geo_data["results"][0]["geometry"]["location"]
+    lat, lon = location["lat"], location["lng"]
+
+    # Step 2: Get current weather
+    base = "https://weather.googleapis.com/v1/"
+    wurl = f"{base}currentConditions:lookup?key={api_key}&location.latitude={lat}&location.longitude={lon}"
+    resp = requests.get(wurl)
+    if resp.status_code != 200:
+        return {"error": resp.status_code, "msg": resp.text}
+    wdata = resp.json()
+
+    # Step 3: Extract important current weather data
+    cond = wdata.get('weatherCondition', {})
+    result = {
+        'location': place_name,
+        'temperature_celsius': wdata.get('temperature', {}).get('degrees'),
+        'condition': cond.get('description', {}).get('text'),
+        'humidity_percent': wdata.get('relativeHumidity'),
+        'wind_speed_kmh': wdata.get('wind', {}).get('speed', {}).get('value'),
+        'wind_direction': wdata.get('wind', {}).get('direction', {}).get('cardinal'),
+        'precipitation_probability_percent': wdata.get('precipitation', {}).get('probability', {}).get('percent'),
+        'uv_index': wdata.get('uvIndex'),
+        'time_zone': wdata.get('timeZone', {}).get('id')
+    }
+    return result
+
 
 if __name__ == "__main__":
     logger.info("Starting Virtual Assistant MCP Server...")
