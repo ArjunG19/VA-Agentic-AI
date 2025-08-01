@@ -1,0 +1,12 @@
+llama-index==0.12.51
+llama-index-cli==0.4.4
+llama-index-core==0.12.52
+llama-index-llms-ollama==0.6.2
+llama-index-tools-mcp==0.2.6
+llama-index-workflows==1.1.0
+llama-parse==0.6.43
+mcp==1.12.1
+ollama==0.5.1
+RapidFuzz  
+requests==2.32.4
+uvicorn==0.35.0
