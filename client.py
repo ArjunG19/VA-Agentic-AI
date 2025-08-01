@@ -1,5 +1,5 @@
 import asyncio
-from langchain_ollama import OllamaLLM
+from llama_index.llms.ollama import Ollama
 from llama_index.tools.mcp import BasicMCPClient, McpToolSpec
 from llama_index.core.agent.workflow import FunctionAgent, ToolCallResult, ToolCall
 from llama_index.core.workflow import Context
