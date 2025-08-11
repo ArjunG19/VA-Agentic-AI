@@ -64,25 +64,22 @@ def play_music(keywords: str) -> str:
     return output_str
 
 @mcp.tool()
-def play_game(game_name: str) -> str:
+def play_game(keywords: str) -> str:
     """
-    Launch a game using Jio Games service. If the name of the game is missing ask the user fro it.
+    Launch a game using Jio Games service. 
 
     Args:
-        game_name (str): Name or partial name of the game to launch.
+        game_name (str): Name or partial name of the game to launch or genre or publisher.
 
     Returns:
         str: Confirmation message with matched game (plus rating/year if available) or prompts user if input is missing.
     """
-    if not game_name or not game_name.strip():
-        return "Please provide a game name to play."
-    result = fuzzy_search(game_name, "games")
-    response = f"Launching '{result['title']}' on Jio Games"
-    if result.get('rating'):
-        response += f" (Rating: {result['rating']})"
-    if result.get('year'):
-        response += f" ({result['year']})"
-    return response
+    r = redis.Redis(host="localhost", port=6379, decode_responses=True)
+    query = Query(f"@search_text:{keywords}").paging(0, 1)
+    results = r.ft("games").search(query)
+    if not results.docs:
+        return "No matching games found."
+    return ", ".join(doc.Name for doc in results.docs)
 
 @mcp.tool()
 def install_app(app_name: str) -> str:
