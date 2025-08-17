@@ -4,6 +4,7 @@ import logging
 import requests
 import redis
 from redis.commands.search.query import Query
+import urllib.parse
 
 # Simple logging setup
 logging.basicConfig(level=logging.INFO)
@@ -148,28 +149,6 @@ def control_volume(action: str, value: Optional[int] = None) -> str:
             return "Volume level must be between 0 and 100"
         return f"Volume set to {value}%"
 
-@mcp.tool()
-def get_system_info() -> str:
-    """
-    Get high-level system and service information.
-
-    Returns:
-        str: Information about simulated current volume, available services, app store, and database status.
-    """
-    conn = get_db_connection()
-    db_status = "Connected" if conn else "Not available"
-    if conn:
-        conn.close()
-    return (
-        f"System Information:\n"
-        f"- Current Volume: 75% (simulated)\n"
-        f"- Available Platforms: Netflix, Hulu, Disney+, Amazon Prime, HBO Max, YouTube, Apple TV+\n"
-        f"- Music Service: Jio Saavn\n"
-        f"- Gaming Service: Jio Games\n"
-        f"- App Store: Jio Store\n"
-        f"- Media Database: {db_status}\n"
-        
-    )
 api_key = "api_key"
 @mcp.tool()
 def get_weather_by_location_name(place_name):
