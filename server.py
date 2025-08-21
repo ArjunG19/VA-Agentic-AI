@@ -1,10 +1,10 @@
 from mcp.server.fastmcp import FastMCP
-from typing import Optional
+from typing import Optional, Union
 import logging
 import requests
 import redis
-from redis.commands.search.query import Query
 import urllib.parse
+from redis.commands.search.query import Query
 
 # Simple logging setup
 logging.basicConfig(level=logging.INFO)
@@ -15,15 +15,17 @@ mcp = FastMCP(name="VA", port=8000)
 @mcp.tool()
 def play_movie(keywords: str, platform_name: str) -> str:
     """
-    Play a movie on the specified video streaming platform. If any parameter is missing ask the user for it one by one. Do not assume anything on your own
+    Play a movie on a streaming platform.
 
     Args:
-        movie_name (str): Keywords given by the user for the movie like title, genre, actor, director, etc.
-        platform_name (str): Must be one of: Netflix, Hulu, Disney+, Amazon Prime, HBO Max, YouTube, Apple TV+.
+        keywords (str): Title, actor, genre, or director.
+        platform_name (str): One of Netflix, Hulu, Disney+, Amazon Prime, HBO Max, YouTube, Apple TV+.
 
-    Returns:
-        str: Confirmation message with matched movie (and rating if available), 
-             or validation/suggestion message with other movie recommendations.
+    Behavior:
+    - If platform_name is invalid/missing, return an error and list valid platforms.
+    - Do not guess missing inputs; request them explicitly.
+    - If movie found, return "Playing '<title>' on <platform>".
+    - If no match, return "No matching movies found."
     """
     allowed_platforms = ['Netflix', 'Hulu', 'Disney+', 'Amazon Prime', 'HBO Max', 'YouTube', 'Apple TV+']
     if platform_name not in allowed_platforms:
@@ -36,20 +38,23 @@ def play_movie(keywords: str, platform_name: str) -> str:
     if not results.docs:
         return "No matching movies found"
     
-    result= ", ".join(doc.title for doc in results.docs)
+    result = ", ".join(doc.title for doc in results.docs)
     response = f"Playing '{result}' on {platform_name}"
     return response
+
 
 @mcp.tool()
 def play_music(keywords: str) -> str:
     """
-    Play a song using Jio Saavn given any details like song name, artist name, album name, genre.
+    Play a song using any details (title, artist, album, or genre).
 
     Args:
-        keywords (str): The search text describing what the user is looking for. Can include keywords from the track name, artist names, album name, or genre.
+        keywords (str): Search text with song-related keywords.
 
-    Returns:
-        str: matched songs
+    Behavior:
+    - Match against track name, artist(s), album, or genre.
+    - Return "<track> by <artist>" if found.
+    - If no match, return "No matching songs found."
     """
     r = redis.Redis(host="localhost", port=6379, decode_responses=True)
     
@@ -67,13 +72,15 @@ def play_music(keywords: str) -> str:
 @mcp.tool()
 def play_game(keywords: str) -> str:
     """
-    Launch a game using Jio Games service. 
+    Launch a game using its name, genre, or publisher.
 
     Args:
-        game_name (str): Name or partial name of the game to launch or genre or publisher.
+        keywords (str): Search text for the game.
 
-    Returns:
-        str: Confirmation message with matched game (plus rating/year if available) or prompts user if input is missing.
+    Behavior:
+    - Match against game title, genre, or publisher.
+    - Return "<game>" if found.
+    - If no match, return "No matching games found."
     """
     r = redis.Redis(host="localhost", port=6379, decode_responses=True)
     query = Query(f"@search_text:{keywords}").paging(0, 1)
@@ -81,6 +88,49 @@ def play_game(keywords: str) -> str:
     if not results.docs:
         return "No matching games found."
     return ", ".join(doc.Name for doc in results.docs)
+
+@mcp.tool()
+def play_channel(query_str: Optional[str] = None, epg_no: Union[str, int, None] = None) -> str:
+    """
+    Play a TV channel by name/genre keywords or by EPG number.
+
+    Args:
+        query_str (str, optional): Channel name or language(english/hindi) or genres like entertainment, movies, sports, news, etc.
+        epg_no (int or str, optional): EPG number of the channel (e.g., 115). 
+            Can be provided as an int or numeric string.
+
+    Returns:
+        str: A confirmation message like "📺 Playing channel: Star Plus HD (EPG 115)".
+    """
+    r = redis.Redis(host="localhost", port=6379, decode_responses=True)
+
+    # Handle epg_no if provided
+    if epg_no not in (None, ""):
+        try:
+            epg_no_int = int(epg_no)
+            query = Query(f"@EPG_No:[{epg_no_int} {epg_no_int}]").paging(0, 1)
+            results = r.ft("channels").search(query)
+            if results.docs:
+                channel = results.docs[0].Channel_Name  # 🔑 match field name
+                return f"📺 Playing channel: {channel} (EPG {epg_no_int})"
+            else:
+                return f"No channel found with EPG No. {epg_no_int}"
+        except ValueError:
+            # epg_no was not a valid int, fall back to query_str
+            pass
+
+    # Handle channel name / genre
+    if query_str:
+        query = Query(f"@search_text:{query_str}").paging(0, 1)
+        results = r.ft("channels").search(query)
+        if results.docs:
+            channel = results.docs[0].Channel_Name
+            return(f"📺 Playing channel: {channel}")
+        else:
+            return("No matching channels")
+            
+
+    return "❌ Please provide either channel name/genre or EPG No."
 
 @mcp.tool()
 def install_app(app_name: str) -> str:
