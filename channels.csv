@@ -1,0 +1,607 @@
+Sr. No.,Channel Name,HD/SD,Genre,EPG No.,FTA/Pay,MRP,MRP + Tax
+1,DD National,SD,Hindi Entertainment,114,FTA,FTA,FTA
+2,Star Plus HD,HD,Hindi Entertainment,115,Pay,19,22.42
+3,Star Plus,SD,Hindi Entertainment,117,Pay,19,22.42
+4,Star Bharat HD,HD,Hindi Entertainment,121,Pay,19,22.42
+5,Star Bharat,SD,Hindi Entertainment,122,Pay,10,11.8
+6,SET HD,HD,Hindi Entertainment,128,Pay,19,22.42
+7,SET,SD,Hindi Entertainment,130,Pay,19,22.42
+8,Sony SAB HD,HD,Hindi Entertainment,132,Pay,19,22.42
+9,Sony SAB,SD,Hindi Entertainment,134,Pay,19,22.42
+10,&TV HD,HD,Hindi Entertainment,137,Pay,19,22.42
+11,&TV,SD,Hindi Entertainment,139,Pay,12,14.16
+12,Zee TV HD,HD,Hindi Entertainment,141,Pay,19,22.42
+13,Zee TV,SD,Hindi Entertainment,143,Pay,19,22.42
+14,Colors HD,HD,Hindi Entertainment,147,Pay,19,22.42
+15,Colors,SD,Hindi Entertainment,149,Pay,19,22.42
+16,UTV Bindass,SD,Hindi Entertainment,153,Pay,1,1.18
+17,Investigation Discovery,SD,Hindi Entertainment,155,Pay,1,1.18
+18,Naaptol,SD,Shopping,156,FTA,FTA,FTA
+19,Ezmall,SD,Others,158,FTA,FTA,FTA
+20,Star Utsav,SD,Hindi Entertainment,171,Pay,1,1.18
+21,Zee Anmol,SD,Hindi Entertainment,172,Pay,0.1,0.12
+22,Colors Rishtey,SD,Hindi Entertainment,173,Pay,1,1.18
+23,Sony Pal,SD,Hindi Entertainment,174,Pay,1,1.18
+24,The Q,SD,Hindi Entertainment,175,FTA,FTA,FTA
+25,Big Magic,SD,Hindi Entertainment,176,Pay,0.1,0.12
+26,Dangal,SD,Hindi Entertainment,177,FTA,FTA,FTA
+27,Anjan TV,SD,Hindi Entertainment,178,FTA,FTA,FTA
+28,DD Retro,SD,Hindi Entertainment,180,FTA,FTA,FTA
+29,Shemaroo TV,SD,Hindi Entertainment,181,FTA,FTA,FTA
+30,Ishara,SD,Hindi Entertainment,182,Pay,5,5.9
+31,Azaad,SD,Hindi Entertainment,183,FTA,FTA,FTA
+32,DD Kisan,SD,Hindi Entertainment,198,FTA,FTA,FTA
+33,Star World HD,HD,English Entertainment,202,Pay,9,10.62
+34,Star World,SD,English Entertainment,203,Pay,8,9.44
+35,Star World Premiere HD,HD,English Entertainment,206,Pay,9,10.62
+36,Zee Caf? HD,HD,English Entertainment,210,Pay,19,22.42
+37,Zee Caf?,SD,English Entertainment,211,Pay,15,17.7
+38,Colors Infinity HD,HD,English Entertainment,214,Pay,9,10.62
+39,Colors Infinity,SD,English Entertainment,215,Pay,5,5.9
+40,Comedy Central HD,HD,English Entertainment,218,Pay,9,10.62
+41,Comedy Central,SD,English Entertainment,219,Pay,5,5.9
+42,Disney International HD,HD,English Entertainment,221,Pay,12,14.16
+43,Star Gold HD,HD,Hindi Movies,308,Pay,10,11.8
+44,Star Gold,SD,Hindi Movies,310,Pay,8,9.44
+45,Sony Max HD,HD,Hindi Movies,312,Pay,17,20.06
+46,Sony Max,SD,Hindi Movies,314,Pay,15,17.7
+47,Star Gold 2,SD,Hindi Movies,317,Pay,1,1.18
+48,Zee Cinema HD,HD,Hindi Movies,319,Pay,19,22.42
+49,Zee Cinema,SD,Hindi Movies,321,Pay,15,17.7
+50,UTV HD,HD,Hindi Movies,322,Pay,8,9.44
+51,UTV Movies,SD,Hindi Movies,323,Pay,2,2.36
+52,UTV Action,SD,Hindi Movies,325,Pay,2,2.36
+53,Zee Bollywood,SD,Hindi Movies,327,Pay,2,2.36
+54,Zee Classic,SD,Hindi Movies,328,Pay,0.5,0.59
+55,&pictures HD,HD,Hindi Movies,331,Pay,19,22.42
+56,&pictures,SD,Hindi Movies,332,Pay,6,7.08
+57,Colors Cineplex HD,HD,Hindi Movies,344,Pay,5,5.9
+58,Colors Cineplex,SD,Hindi Movies,345,Pay,3,3.54
+59,B4U Kadak,SD,Hindi Movies,346,FTA,FTA,FTA
+60,Zee Action,SD,Hindi Movies,349,Pay,1,1.18
+61,Sony Wah,SD,Hindi Movies,351,Pay,1,1.18
+62,B4U Movies,SD,Hindi Movies,352,FTA,FTA,FTA
+63,Sony Max 2,SD,Hindi Movies,355,Pay,1,1.18
+64,Star Gold Select HD,HD,Hindi Movies,356,Pay,10,11.8
+65,Star Gold Select,SD,Hindi Movies,357,Pay,7,8.26
+66,Cinema TV India,SD,Hindi Movies,358,FTA,FTA,FTA
+67,Wow Cinema One,SD,Hindi Movies,365,FTA,FTA,FTA
+68,Enterr10 Movies,SD,Hindi Movies,366,FTA,FTA,FTA
+69,Bflix Movies,SD,Hindi Movies,367,FTA,FTA,FTA
+70,Star Utsav Movies,SD,Hindi Movies,369,Pay,1,1.18
+71,Zee Anmol Cinema,SD,Hindi Movies,371,Pay,0.1,0.12
+72,Dhinchaak,SD,Hindi Movies,375,FTA,FTA,FTA
+73,Manoranjan TV,SD,Hindi Movies,376,FTA,FTA,FTA
+74,Star Movies HD,HD,English Movies,402,Pay,19,22.42
+75,Star Movies,SD,English Movies,403,Pay,12,14.16
+76,Sony Pix HD,HD,English Movies,406,Pay,15,17.7
+77,Sony Pix,SD,English Movies,407,Pay,10,11.8
+78,&flix HD,HD,English Movies,412,Pay,19,22.42
+79,&flix,SD,English Movies,413,Pay,15,17.7
+80,Star Movies Select HD,HD,English Movies,418,Pay,10,11.8
+81,Movies Now HD,HD,English Movies,420,Pay,12,14.16
+82,Movies Now,SD,English Movies,421,Pay,10,11.8
+83,MN+ HD,HD,English Movies,423,Pay,10,11.8
+84,MNX HD,HD,English Movies,425,Pay,9,10.62
+85,MNX,SD,English Movies,426,Pay,6,7.08
+86,Romedy Now,SD,English Movies,429,Pay,6,7.08
+87,&prive HD,HD,English Movies,431,Pay,19,22.42
+88,DD Sports,SD,Sports,453,FTA,FTA,FTA
+89,Star Sports 1 HD,HD,Sports,454,Pay,19,22.42
+90,Star Sports 1,SD,Sports,455,Pay,19,22.42
+91,Star Sports 2 HD,HD,Sports,456,Pay,19,22.42
+92,Star Sports 2,SD,Sports,457,Pay,6,7.08
+93,Star Sports 3,SD,Sports,458,Pay,4,4.72
+94,Star Sports 1 Hindi HD,HD,Sports,459,Pay,19,22.42
+95,Star Sports 1 Hindi,SD,Sports,460,Pay,19,22.42
+96,Star Sports Select 1 HD,HD,Sports,463,Pay,19,22.42
+97,Star Sports Select 1,SD,Sports,464,Pay,19,22.42
+98,Star Sports Select 2 HD,HD,Sports,465,Pay,10,11.8
+99,Star Sports Select 2,SD,Sports,466,Pay,7,8.26
+100,Sony Ten 1 HD,HD,Sports,470,Pay,19,22.42
+101,Sony Ten 1,SD,Sports,471,Pay,19,22.42
+102,Sony Ten 2 HD,HD,Sports,473,Pay,17,20.06
+103,Sony Ten 2,SD,Sports,474,Pay,15,17.7
+104,Sony Ten 3 HD,HD,Sports,475,Pay,17,20.06
+105,Sony Ten 3,SD,Sports,476,Pay,17,20.06
+106,Sony Six HD,HD,Sports,483,Pay,19,22.42
+107,Sony Six,SD,Sports,484,Pay,15,17.7
+108,Eurosport HD,HD,Sports,495,Pay,6,7.08
+109,Eurosport,SD,Sports,496,Pay,4,4.72
+110,Star Sports First,SD,Sports,497,Pay,1,1.18
+111,1Sports,SD,Sports,498,Pay,4,4.72
+112,DD News HD,HD,Hindi News,501,FTA,FTA,FTA
+113,DD News,SD,Hindi News,502,FTA,FTA,FTA
+114,ABP News,SD,Hindi News,504,FTA,FTA,FTA
+115,NDTV India,SD,Hindi News,506,Pay,1,1.18
+116,Aaj Tak HD,HD,Hindi News,508,Pay,1.5,1.77
+117,Aaj Tak,SD,Hindi News,509,Pay,0.75,0.89
+118,Zee News,SD,Hindi News,511,Pay,0.1,0.12
+119,India TV,SD,Hindi News,514,FTA,FTA,FTA
+120,News 24,SD,Hindi News,516,FTA,FTA,FTA
+121,News18 India,SD,Hindi News,519,Pay,0.1,0.12
+122,Zee Hindustan,SD,Hindi News,520,Pay,0.1,0.12
+123,R Bharat,SD,Hindi News,521,FTA,FTA,FTA
+124,India News,SD,Hindi News,522,FTA,FTA,FTA
+125,News Nation,SD,Hindi News,523,FTA,FTA,FTA
+126,TV9 Bharatvarsh,SD,Hindi News,524,FTA,FTA,FTA
+127,Good News Today,SD,Hindi News,525,Pay,0.25,0.3
+128,Total TV,SD,Hindi News,527,FTA,FTA,FTA
+129,Times Now Navbharat HD,HD,Hindi News,528,Pay,1.5,1.77
+130,Sudarshan News,SD,Hindi News,534,FTA,FTA,FTA
+131,APN News,SD,Hindi News,542,FTA,FTA,FTA
+132,India Voice,SD,Hindi News,551,FTA,FTA,FTA
+133,News 11 Bharat,SD,Hindi News,552,FTA,FTA,FTA
+134,News 1 India,SD,Hindi News,553,FTA,FTA,FTA
+135,Hindi Khabar,SD,Hindi News,557,FTA,FTA,FTA
+136,Bharat Samachar,SD,Hindi News,559,FTA,FTA,FTA
+137,News India 24x7,SD,Hindi News,562,FTA,FTA,FTA
+138,Khabrain Abhi Tak,SD,Hindi News,563,FTA,FTA,FTA
+139,Samay,SD,Hindi News,566,FTA,FTA,FTA
+140,Network 10,SD,Hindi News,567,FTA,FTA,FTA
+141,Jantantra TV,SD,Hindi News,568,FTA,FTA,FTA
+142,Prime News,SD,Hindi News,569,FTA,FTA,FTA
+143,Zee Business,SD,Hindi News,590,Pay,0.1,0.12
+144,CNBC Awaaz,SD,Hindi News,592,Pay,1,1.18
+145,Lok Sabha TV,SD,Hindi News,598,FTA,FTA,FTA
+146,Rajya Sabha TV,SD,Hindi News,599,FTA,FTA,FTA
+147,NDTV 24x7,SD,English News,601,Pay,3,3.54
+148,Times Now World (HD),HD,English News,603,Pay,5,5.9
+149,Times Now,SD,English News,604,Pay,3,3.54
+150,India Today,SD,English News,606,Pay,1,1.18
+151,CNN News18,SD,English News,608,Pay,0.5,0.59
+152,NewsX,SD,English News,610,FTA,FTA,FTA
+153,Mirror Now,SD,English News,612,Pay,0.5,0.59
+154,WION,SD,English News,613,Pay,1,1.18
+155,Republic TV,SD,English News,616,FTA,FTA,FTA
+156,India Ahead,SD,English News,617,FTA,FTA,FTA
+157,DD India,SD,English News,622,FTA,FTA,FTA
+158,NDTV Profit Prime,SD,English News,623,Pay,1,1.18
+159,CNBC TV18 Prime HD,HD,English News,625,Pay,1,1.18
+160,CNBC TV18,SD,English News,626,Pay,4,4.72
+161,ET Now,SD,English News,627,Pay,3,3.54
+162,CNN,SD,English News,631,Pay,0.5,0.59
+163,BBC World,SD,English News,633,Pay,1,1.18
+164,Al Jazeera,SD,English News,637,FTA,FTA,FTA
+165,Channel News Asia,SD,English News,638,FTA,FTA,FTA
+166,France 24,SD,English News,639,FTA,FTA,FTA
+167,TV5 Monde Asie,SD,English News,640,FTA,FTA,FTA
+168,DW,SD,English News,641,FTA,FTA,FTA
+169,Australia TV,SD,English News,642,FTA,FTA,FTA
+170,Russia Today,SD,English News,643,FTA,FTA,FTA
+171,Hungama TV,SD,Kids,652,Pay,6,7.08
+172,Marvel HQ,SD,Kids,655,Pay,4,4.72
+173,Disney,SD,Kids,658,Pay,8,9.44
+174,Nick HD+,HD,Kids,662,Pay,10,11.8
+175,Nick,SD,Kids,663,Pay,6,7.08
+176,Cartoon Network HD+,HD,Kids,666,Pay,5,5.9
+177,Cartoon Network,SD,Kids,667,Pay,4.25,5.02
+178,Pogo,SD,Kids,670,Pay,4.25,5.02
+179,Discovery Kids,SD,Kids,672,Pay,3,3.54
+180,Sonic Nickelodeon,SD,Kids,674,Pay,2,2.36
+181,Sony Yay,SD,Kids,676,Pay,2,2.36
+182,Gubbare,SD,Kids,678,Pay,0.65,0.77
+183,ETV Bal Bharat,SD,Kids,680,Pay,4,4.72
+184,Baby TV HD,HD,Kids,684,Pay,1,1.18
+185,Nick Jr,SD,Kids,685,Pay,1,1.18
+186,Disney Junior,SD,Kids,686,Pay,4,4.72
+187,CBeeBies,SD,Kids,687,Pay,5,5.9
+188,Kushi TV,SD,Kids,692,Pay,4,4.72
+189,Chutti TV,SD,Kids,693,Pay,6,7.08
+190,Chintu TV,SD,Kids,694,Pay,6,7.08
+191,Kochu TV,SD,Kids,695,Pay,5,5.9
+192,National Geographic HD,HD,Knowledge & Lifestyle,708,Pay,10,11.8
+193,National Geographic,SD,Knowledge & Lifestyle,709,Pay,2,2.36
+194,Nat Geo Wild HD,HD,Knowledge & Lifestyle,711,Pay,5,5.9
+195,Nat Geo Wild,SD,Knowledge & Lifestyle,712,Pay,1,1.18
+196,Discovery HD World,HD,Knowledge & Lifestyle,713,Pay,6,7.08
+197,Discovery Channel,SD,Knowledge & Lifestyle,714,Pay,4,4.72
+198,Animal Planet HD World,HD,Knowledge & Lifestyle,716,Pay,3,3.54
+199,Animal Planet,SD,Knowledge & Lifestyle,717,Pay,2,2.36
+200,Discovery Science,SD,Knowledge & Lifestyle,719,Pay,1,1.18
+201,History TV18 HD,HD,Knowledge & Lifestyle,720,Pay,7,8.26
+202,History TV18,SD,Knowledge & Lifestyle,721,Pay,3,3.54
+203,Sony BBC Earth HD,HD,Knowledge & Lifestyle,724,Pay,10,11.8
+204,Sony BBC Earth,SD,Knowledge & Lifestyle,725,Pay,4,4.72
+205,Epic,SD,Knowledge & Lifestyle,735,Pay,2,2.36
+206,Fox Life HD,HD,Knowledge & Lifestyle,753,Pay,1,1.18
+207,Fox Life,SD,Knowledge & Lifestyle,754,Pay,1,1.18
+208,DD Gyan Darshan,SD,Knowledge & Lifestyle,755,FTA,FTA,FTA
+209,Swayam Prabha,SD,Knowledge & Lifestyle,756,FTA,FTA,FTA
+210,TLC HD,HD,Knowledge & Lifestyle,759,Pay,3,3.54
+211,TLC,SD,Knowledge & Lifestyle,760,Pay,2,2.36
+212,Good Times,SD,Knowledge & Lifestyle,762,Pay,1.5,1.77
+213,Discovery Turbo,SD,Knowledge & Lifestyle,764,Pay,1,1.18
+214,TravelXP HD,HD,Knowledge & Lifestyle,765,Pay,9,10.62
+215,TravelXP,SD,Knowledge & Lifestyle,766,Pay,3,3.54
+216,Food Food,SD,Knowledge & Lifestyle,768,FTA,FTA,FTA
+217,Zee Zest HD,HD,Knowledge & Lifestyle,769,Pay,10,11.8
+218,Zee Zest,SD,Knowledge & Lifestyle,770,Pay,1,1.18
+219,Fashion TV,SD,Knowledge & Lifestyle,772,FTA,FTA,FTA
+220,MTV HD+,HD,Music,806,Pay,5,5.9
+221,MTV,SD,Music,807,Pay,3,3.54
+222,9XM,SD,Music,809,FTA,FTA,FTA
+223,Zoom,SD,Music,811,Pay,0.5,0.59
+224,E24,SD,Music,813,FTA,FTA,FTA
+225,MTV Beats HD,HD,Music,820,Pay,1,1.18
+226,MTV Beats,SD,Music,821,Pay,0.1,0.12
+227,B4U Music,SD,Music,822,FTA,FTA,FTA
+228,Mastiii,SD,Music,825,FTA,FTA,FTA
+229,Zing,SD,Music,826,Pay,0.1,0.12
+230,9X Jalwa,SD,Music,830,FTA,FTA,FTA
+231,insync,SD,Music,833,FTA,FTA,FTA
+232,Showbox,SD,Music,835,FTA,FTA,FTA
+233,Vh1 HD,HD,Music,855,Pay,2,2.36
+234,Vh1,SD,Music,856,Pay,1,1.18
+235,Aastha,SD,Spiritual,1055,FTA,FTA,FTA
+236,Sanskar,SD,Spiritual,1057,FTA,FTA,FTA
+237,Disha TV,SD,Spiritual,1058,FTA,FTA,FTA
+238,Paras TV,SD,Spiritual,1059,FTA,FTA,FTA
+239,MH One Shraddha,SD,Spiritual,1061,FTA,FTA,FTA
+240,Sadhna TV,SD,Spiritual,1063,FTA,FTA,FTA
+241,Sharnam TV,SD,Spiritual,1064,FTA,FTA,FTA
+242,Peace of Mind,SD,Spiritual,1065,FTA,FTA,FTA
+243,Jinvani Channel,SD,Spiritual,1066,FTA,FTA,FTA
+244,Arihant,SD,Spiritual,1067,FTA,FTA,FTA
+245,Ishwar TV,SD,Spiritual,1068,FTA,FTA,FTA
+246,Satsang TV,SD,Spiritual,1073,FTA,FTA,FTA
+247,Shubh TV,SD,Spiritual,1074,FTA,FTA,FTA
+248,Aastha Bhajan,SD,Spiritual,1077,FTA,FTA,FTA
+249,Vedic,SD,Spiritual,1078,FTA,FTA,FTA
+250,Subharti TV,SD,Spiritual,1082,FTA,FTA,FTA
+251,Divya,SD,Spiritual,1083,FTA,FTA,FTA
+252,Awakening,SD,Spiritual,1084,FTA,FTA,FTA
+253,Santwani,SD,Spiritual,1085,FTA,FTA,FTA
+254,Big Ganga,SD,Hindi Regional,1102,Pay,0.5,0.59
+255,Dishum,SD,Hindi Regional,1103,FTA,FTA,FTA
+256,Enterr10 Rangeela,SD,Hindi Regional,1104,FTA,FTA,FTA
+257,Zee Biskope,SD,Hindi Regional,1113,Pay,0.1,0.12
+258,Filamchi Bhojpuri,SD,Hindi Regional,1114,Pay,0.25,0.3
+259,Oscar Movies Bhojpuri,SD,Hindi Regional,1118,FTA,FTA,FTA
+260,Bhojpuri Cinema,SD,Hindi Regional,1119,FTA,FTA,FTA
+261,B4U Bhojpuri,SD,Hindi Regional,1120,FTA,FTA,FTA
+262,Mango TV,SD,Hindi Regional,1122,FTA,FTA,FTA
+263,News18 Uttar Pradesh Uttarakhand,SD,Hindi Regional,1125,Pay,0.1,0.12
+264,Zee Uttar Pradesh Uttarakhand,SD,Hindi Regional,1126,Pay,0.1,0.12
+265,ABP Ganga,SD,Hindi Regional,1127,FTA,FTA,FTA
+266,News18 Bihar Jharkhand,SD,Hindi Regional,1129,Pay,0.1,0.12
+267,Zee Bihar Jharkhand,SD,Hindi Regional,1130,Pay,0.1,0.12
+268,India News UP UK,SD,Hindi Regional,1136,FTA,FTA,FTA
+269,News State UP Uttarakhand,SD,Hindi Regional,1137,FTA,FTA,FTA
+270,Sadhna Plus News,SD,Hindi Regional,1138,FTA,FTA,FTA
+271,Kashish News,SD,Hindi Regional,1139,FTA,FTA,FTA
+272,DD Bharati,SD,Hindi Regional,1152,FTA,FTA,FTA
+273,DD Uttar Pradesh,SD,Hindi Regional,1153,FTA,FTA,FTA
+274,DD Bihar,SD,Hindi Regional,1154,FTA,FTA,FTA
+275,News18 Madhya Pradesh Chhattisgarh,SD,Hindi Regional,1155,Pay,0.1,0.12
+276,Zee Madhya Pradesh Chattisgarh,SD,Hindi Regional,1156,Pay,0.1,0.12
+277,IBC 24,SD,Hindi Regional,1161,FTA,FTA,FTA
+278,Bansal News,SD,Hindi Regional,1162,FTA,FTA,FTA
+279,INH 24X7,SD,Hindi Regional,1163,FTA,FTA,FTA
+280,India News MP CG,SD,Hindi Regional,1164,FTA,FTA,FTA
+281,News State MP CG,SD,Hindi Regional,1165,FTA,FTA,FTA
+282,Swaraj Express SMBC,SD,Hindi Regional,1166,FTA,FTA,FTA
+283,Sadhna News MP CG,SD,Hindi Regional,1168,FTA,FTA,FTA
+284,News 24 MP CG,SD,Hindi Regional,1169,FTA,FTA,FTA
+285,Anaadi TV,SD,Hindi Regional,1170,FTA,FTA,FTA
+286,DD Madhya Pradesh,SD,Hindi Regional,1175,FTA,FTA,FTA
+287,News18 Rajasthan,SD,Hindi Regional,1176,Pay,0.1,0.12
+288,Zee Rajasthan News,SD,Hindi Regional,1177,Pay,0.1,0.12
+289,First India Rajasthan,SD,Hindi Regional,1182,FTA,FTA,FTA
+290,India News Rajasthan,SD,Hindi Regional,1183,FTA,FTA,FTA
+291,Patrika TV Rajasthan,SD,Hindi Regional,1184,FTA,FTA,FTA
+292,Jan TV,SD,Hindi Regional,1185,FTA,FTA,FTA
+293,A1 TV,SD,Hindi Regional,1186,FTA,FTA,FTA
+294,DD Rajasthan,SD,Hindi Regional,1190,FTA,FTA,FTA
+295,News18 Urdu,SD,Hindi Regional,1191,Pay,0.1,0.12
+296,Zee Salaam,SD,Hindi Regional,1192,Pay,0.1,0.12
+297,Channel Win,SD,Hindi Regional,1193,FTA,FTA,FTA
+298,Gulistan News,SD,Hindi Regional,1194,FTA,FTA,FTA
+299,Tehzeeb TV,SD,Hindi Regional,1195,FTA,FTA,FTA
+300,DD Urdu,SD,Hindi Regional,1199,FTA,FTA,FTA
+301,Colors Marathi HD,HD,Marathi Regional,1201,Pay,17,20.06
+302,Colors Marathi,SD,Marathi Regional,1202,Pay,10,11.8
+303,Zee Marathi HD,HD,Marathi Regional,1203,Pay,19,22.42
+304,Zee Marathi,SD,Marathi Regional,1204,Pay,19,22.42
+305,Star Pravah HD,HD,Marathi Regional,1207,Pay,15,17.7
+306,Star Pravah,SD,Marathi Regional,1208,Pay,9,10.62
+307,Zee Yuva,SD,Marathi Regional,1211,Pay,1,1.18
+308,Sony Marathi,SD,Marathi Regional,1213,Pay,4,4.72
+309,Fakt Marathi,SD,Marathi Regional,1220,FTA,FTA,FTA
+310,Zee Talkies HD,HD,Marathi Regional,1225,Pay,19,22.42
+311,Zee Talkies,SD,Marathi Regional,1226,Pay,2,2.36
+312,Shemaroo Marathi Bana,SD,Marathi Regional,1230,FTA,FTA,FTA
+313,ABP Majha,SD,Marathi Regional,1255,FTA,FTA,FTA
+314,News18 Lokmat,SD,Marathi Regional,1257,Pay,0.1,0.12
+315,Zee 24 Taas,SD,Marathi Regional,1259,Pay,0.1,0.12
+316,Saam TV,SD,Marathi Regional,1261,FTA,FTA,FTA
+317,Jai Maharashtra,SD,Marathi Regional,1262,FTA,FTA,FTA
+318,TV9 Marathi,SD,Marathi Regional,1263,FTA,FTA,FTA
+319,Lokshahi,SD,Marathi Regional,1265,FTA,FTA,FTA
+320,DD Sahyadri,SD,Marathi Regional,1274,FTA,FTA,FTA
+321,9X Jhakaas,SD,Marathi Regional,1276,FTA,FTA,FTA
+322,Sangeet Marathi,SD,Marathi Regional,1277,FTA,FTA,FTA
+323,Zee Vajwa,SD,Marathi Regional,1278,Pay,0.1,0.12
+324,Colors Bangla HD,HD,Bengali Regional,1302,Pay,14,16.52
+325,Colors Bangla,SD,Bengali Regional,1303,Pay,7,8.26
+326,Zee Bangla HD,HD,Bengali Regional,1306,Pay,19,22.42
+327,Zee Bangla,SD,Bengali Regional,1307,Pay,19,22.42
+328,Star Jalsha HD,HD,Bengali Regional,1309,Pay,19,22.42
+329,Star Jalsha,SD,Bengali Regional,1310,Pay,19,22.42
+330,Sony Aath,SD,Bengali Regional,1312,Pay,4,4.72
+331,Sun Bangla,SD,Bengali Regional,1317,FTA,FTA,FTA
+332,Aakaash Aath,SD,Bengali Regional,1320,FTA,FTA,FTA
+333,Ruposhi Bangla,SD,Bengali Regional,1321,FTA,FTA,FTA
+334,Enterr10 Bangla,SD,Bengali Regional,1322,FTA,FTA,FTA
+335,Jalsha Movies HD,HD,Bengali Regional,1326,Pay,19,22.42
+336,Jalsha Movies,SD,Bengali Regional,1327,Pay,6,7.08
+337,Zee Bangla Cinema,SD,Bengali Regional,1329,Pay,2,2.36
+338,Colors Bangla Cinema,SD,Bengali Regional,1331,Pay,1,1.18
+339,Khushboo Bangla,SD,Bengali Regional,1341,FTA,FTA,FTA
+340,Star Sports 1 Bangla,SD,Bengali Regional,1350,Pay,19,22.42
+341,ABP Ananda,SD,Bengali Regional,1360,FTA,FTA,FTA
+342,Zee 24 Ghanta,SD,Bengali Regional,1362,Pay,0.1,0.12
+343,Kolkata TV,SD,Bengali Regional,1363,FTA,FTA,FTA
+344,News18 Bangla,SD,Bengali Regional,1365,Pay,0.1,0.12
+345,TV9 Bangla,SD,Bengali Regional,1366,FTA,FTA,FTA
+346,Republic Bangla,SD,Bengali Regional,1367,FTA,FTA,FTA
+347,News Time Bangla,SD,Bengali Regional,1368,FTA,FTA,FTA
+348,CTVN AKD Plus,SD,Bengali Regional,1369,FTA,FTA,FTA
+349,Calcutta News,SD,Bengali Regional,1370,FTA,FTA,FTA
+350,DD Bangla,SD,Bengali Regional,1379,FTA,FTA,FTA
+351,Sangeet Bangla,SD,Bengali Regional,1380,FTA,FTA,FTA
+352,Zee Telugu HD,HD,Telugu Regional,1403,Pay,19,22.42
+353,Zee Telugu,SD,Telugu Regional,1404,Pay,19,22.42
+354,Gemini TV HD,HD,Telugu Regional,1405,Pay,19,22.42
+355,Gemini TV,SD,Telugu Regional,1406,Pay,19,22.42
+356,Star Maa HD,HD,Telugu Regional,1408,Pay,19,22.42
+357,Star Maa,SD,Telugu Regional,1409,Pay,19,22.42
+358,ETV HD,HD,Telugu Regional,1411,Pay,19,22.42
+359,ETV Telugu,SD,Telugu Regional,1412,Pay,17,20.06
+360,Gemini Life,SD,Telugu Regional,1415,Pay,5,5.9
+361,ETV Plus,SD,Telugu Regional,1417,Pay,7,8.26
+362,Telugu Naaptol,SD,Telugu Regional,1419,FTA,FTA,FTA
+363,Vissa TV,SD,Telugu Regional,1422,FTA,FTA,FTA
+364,Studio Yuva,SD,Telugu Regional,1423,FTA,FTA,FTA
+365,Gemini Movies HD,HD,Telugu Regional,1430,Pay,19,22.42
+366,Gemini Movies,SD,Telugu Regional,1431,Pay,17,20.06
+367,Star Maa Movies HD,HD,Telugu Regional,1432,Pay,19,22.42
+368,Star Maa Movies,SD,Telugu Regional,1433,Pay,10,11.8
+369,Star Maa Gold,SD,Telugu Regional,1435,Pay,2,2.36
+370,Zee Cinemalu HD,HD,Telugu Regional,1437,Pay,16,18.88
+371,Zee Cinemalu,SD,Telugu Regional,1438,Pay,10,11.8
+372,ETV Cinema,SD,Telugu Regional,1440,Pay,6,7.08
+373,Gemini Comedy,SD,Telugu Regional,1442,Pay,5,5.9
+374,Star Sports 1 Telugu,SD,Telugu Regional,1446,Pay,19,22.42
+375,ETV Life,SD,Telugu Regional,1451,Pay,1,1.18
+376,ETV Abhiruchi,SD,Telugu Regional,1453,Pay,2,2.36
+377,Sakshi TV,SD,Telugu Regional,1456,FTA,FTA,FTA
+378,ETV Andhra Pradesh,SD,Telugu Regional,1457,Pay,1,1.18
+379,TV5 News,SD,Telugu Regional,1458,FTA,FTA,FTA
+380,TV9 Telugu,SD,Telugu Regional,1459,FTA,FTA,FTA
+381,NTV Telugu,SD,Telugu Regional,1460,FTA,FTA,FTA
+382,ABN Andhra Jyothy,SD,Telugu Regional,1461,FTA,FTA,FTA
+383,T News,SD,Telugu Regional,1462,FTA,FTA,FTA
+384,V6 News,SD,Telugu Regional,1463,FTA,FTA,FTA
+385,ETV Telangana,SD,Telugu Regional,1464,Pay,1,1.18
+386,HM TV,SD,Telugu Regional,1465,FTA,FTA,FTA
+387,Raj News,SD,Telugu Regional,1466,FTA,FTA,FTA
+388,10 TV,SD,Telugu Regional,1467,FTA,FTA,FTA
+389,4TV News,SD,Telugu Regional,1470,FTA,FTA,FTA
+390,Vidya,SD,Telugu Regional,1479,FTA,FTA,FTA
+391,Nipuna,SD,Telugu Regional,1480,FTA,FTA,FTA
+392,DD Saptagiri,SD,Telugu Regional,1481,FTA,FTA,FTA
+393,DD Yadagiri,SD,Telugu Regional,1482,FTA,FTA,FTA
+394,Gemini Music,SD,Telugu Regional,1484,Pay,4,4.72
+395,Star Maa Music,SD,Telugu Regional,1486,Pay,1,1.18
+396,Raj Musix Telugu,SD,Telugu Regional,1487,FTA,FTA,FTA
+397,Bhakti TV,SD,Telugu Regional,1490,FTA,FTA,FTA
+398,Subhavaartha TV,SD,Telugu Regional,1491,FTA,FTA,FTA
+399,Aradana TV,SD,Telugu Regional,1492,FTA,FTA,FTA
+400,Swara Sagar,SD,Telugu Regional,1493,FTA,FTA,FTA
+401,Hindu Dharmam,SD,Telugu Regional,1494,FTA,FTA,FTA
+402,SVBC,SD,Telugu Regional,1499,FTA,FTA,FTA
+403,Sun TV HD,HD,Tamil Regional,1503,Pay,19,22.42
+404,Sun TV,SD,Tamil Regional,1504,Pay,19,22.42
+405,Sun Life,SD,Tamil Regional,1506,Pay,9,10.62
+406,Star Vijay HD,HD,Tamil Regional,1507,Pay,19,22.42
+407,Star Vijay,SD,Tamil Regional,1508,Pay,17,20.06
+408,Zee Tamil HD,HD,Tamil Regional,1510,Pay,19,22.42
+409,Zee Tamil,SD,Tamil Regional,1511,Pay,12,14.16
+410,Vijay Super,SD,Tamil Regional,1513,Pay,2,2.36
+411,Colors Tamil HD,HD,Tamil Regional,1514,Pay,7,8.26
+412,Colors Tamil,SD,Tamil Regional,1515,Pay,3,3.54
+413,Jaya TV HD,HD,Tamil Regional,1517,Pay,6,7.08
+414,Kalaignar TV,SD,Tamil Regional,1518,FTA,FTA,FTA
+415,Raj TV,SD,Tamil Regional,1520,Pay,3,3.54
+416,D Tamil,SD,Tamil Regional,1521,Pay,4,4.72
+417,Raj Digital Plus,SD,Tamil Regional,1522,Pay,1.5,1.77
+418,Mega TV,SD,Tamil Regional,1523,Pay,3,3.54
+419,Mega 24,SD,Tamil Regional,1524,Pay,1,1.18
+420,Tamil Naaptol,SD,Tamil Regional,1525,FTA,FTA,FTA
+421,Vasanth TV,SD,Tamil Regional,1530,FTA,FTA,FTA
+422,Sirippoli,SD,Tamil Regional,1531,FTA,FTA,FTA
+423,Polimer TV,SD,Tamil Regional,1532,FTA,FTA,FTA
+424,Makkal TV,SD,Tamil Regional,1533,FTA,FTA,FTA
+425,Peppers TV,SD,Tamil Regional,1534,FTA,FTA,FTA
+426,Moon TV,SD,Tamil Regional,1535,FTA,FTA,FTA
+427,Vendhar TV,SD,Tamil Regional,1536,FTA,FTA,FTA
+428,KTV HD,HD,Tamil Regional,1540,Pay,19,22.42
+429,KTV,SD,Tamil Regional,1541,Pay,19,22.42
+430,Adithya TV,SD,Tamil Regional,1543,Pay,9,10.62
+431,J Movies,SD,Tamil Regional,1544,Pay,2.25,2.66
+432,Zee Thirai,SD,Tamil Regional,1546,Pay,5,5.9
+433,Music Zone,SD,Tamil Regional,1547,FTA,FTA,FTA
+434,Star Sports 1 Tamil,SD,Tamil Regional,1551,Pay,17,20.06
+435,Sony Ten 4,SD,Tamil Regional,1552,Pay,17,20.06
+436,TravelXP Tamil,SD,Tamil Regional,1553,Pay,1.5,1.77
+437,Kalvi TV,SD,Tamil Regional,1554,FTA,FTA,FTA
+438,Puthiya Thalaimurai,SD,Tamil Regional,1556,FTA,FTA,FTA
+439,Thanthi TV,SD,Tamil Regional,1557,FTA,FTA,FTA
+440,Jaya Plus,SD,Tamil Regional,1558,Pay,0.5,0.59
+441,Sun News,SD,Tamil Regional,1559,Pay,1,1.18
+442,News 7 Tamil,SD,Tamil Regional,1560,FTA,FTA,FTA
+443,Polimer News,SD,Tamil Regional,1561,FTA,FTA,FTA
+444,News18 Tamil Nadu,SD,Tamil Regional,1562,Pay,0.1,0.12
+445,Seithigal TV,SD,Tamil Regional,1563,FTA,FTA,FTA
+446,Raj News Tamil,SD,Tamil Regional,1564,Pay,0.25,0.3
+447,Sathiyam TV,SD,Tamil Regional,1565,FTA,FTA,FTA
+448,Malaimurasu Seithigal,SD,Tamil Regional,1566,FTA,FTA,FTA
+449,Captain News,SD,Tamil Regional,1567,FTA,FTA,FTA
+450,News J,SD,Tamil Regional,1568,FTA,FTA,FTA
+451,DD Podhigai,SD,Tamil Regional,1578,FTA,FTA,FTA
+452,Sun Music HD,HD,Tamil Regional,1579,Pay,19,22.42
+453,Sun Music,SD,Tamil Regional,1580,Pay,6,7.08
+454,Jaya Max,SD,Tamil Regional,1581,Pay,2.25,2.66
+455,Raj Musix,SD,Tamil Regional,1582,Pay,1,1.18
+456,Vijay Music,SD,Tamil Regional,1583,Pay,1,1.18
+457,Isaiaruvi,SD,Tamil Regional,1584,FTA,FTA,FTA
+458,Murasu TV,SD,Tamil Regional,1585,FTA,FTA,FTA
+459,Mega Musiq,SD,Tamil Regional,1586,Pay,2,2.36
+460,Jothi TV,SD,Tamil Regional,1587,FTA,FTA,FTA
+461,Madha TV,SD,Tamil Regional,1590,FTA,FTA,FTA
+462,Angel TV,SD,Tamil Regional,1591,FTA,FTA,FTA
+463,Nambikkai TV,SD,Tamil Regional,1592,FTA,FTA,FTA
+464,SVBC 2,SD,Tamil Regional,1599,FTA,FTA,FTA
+465,Udaya TV HD,HD,Kannada Regional,1603,Pay,19,22.42
+466,Udaya TV,SD,Kannada Regional,1604,Pay,17,20.06
+467,Colors Kannada HD,HD,Kannada Regional,1605,Pay,19,22.42
+468,Colors Kannada,SD,Kannada Regional,1606,Pay,19,22.42
+469,Star Suvarna HD,HD,Kannada Regional,1609,Pay,19,22.42
+470,Star Suvarna,SD,Kannada Regional,1610,Pay,19,22.42
+471,Zee Kannada HD,HD,Kannada Regional,1611,Pay,19,22.42
+472,Zee Kannada,SD,Kannada Regional,1612,Pay,19,22.42
+473,Colors Super,SD,Kannada Regional,1615,Pay,3,3.54
+474,Kannada Naaptol,SD,Kannada Regional,1617,FTA,FTA,FTA
+475,Sirikannada All Time,SD,Kannada Regional,1618,FTA,FTA,FTA
+476,Udaya Movies,SD,Kannada Regional,1626,Pay,16,18.88
+477,Udaya Comedy,SD,Kannada Regional,1628,Pay,6,7.08
+478,Star Suvarna Plus,SD,Kannada Regional,1630,Pay,5,5.9
+479,Colors Kannada Cinema,SD,Kannada Regional,1632,Pay,2,2.36
+480,Zee Picchar,SD,Kannada Regional,1634,Pay,3,3.54
+481,Public Movies,SD,Kannada Regional,1639,FTA,FTA,FTA
+482,Star Sports 1 Kannada,SD,Kannada Regional,1645,Pay,19,22.42
+483,Kasthuri,SD,Kannada Regional,1650,FTA,FTA,FTA
+484,TV9 Kannada,SD,Kannada Regional,1653,FTA,FTA,FTA
+485,Asianet Suvarna News,SD,Kannada Regional,1654,FTA,FTA,FTA
+486,Public TV,SD,Kannada Regional,1655,FTA,FTA,FTA
+487,News18 Kannada,SD,Kannada Regional,1656,Pay,0.1,0.12
+488,TV5 Kannada,SD,Kannada Regional,1657,FTA,FTA,FTA
+489,Raj News Kannada,SD,Kannada Regional,1658,FTA,FTA,FTA
+490,Dighvijay 24x7 News,SD,Kannada Regional,1659,FTA,FTA,FTA
+491,Power TV,SD,Kannada Regional,1660,FTA,FTA,FTA
+492,News 1st,SD,Kannada Regional,1661,FTA,FTA,FTA
+493,DD Chandana,SD,Kannada Regional,1672,FTA,FTA,FTA
+494,Udaya Music,SD,Kannada Regional,1673,Pay,6,7.08
+495,Raj Musix Kannada,SD,Kannada Regional,1674,FTA,FTA,FTA
+496,Public Music,SD,Kannada Regional,1677,FTA,FTA,FTA
+497,Sri Sankara TV,SD,Kannada Regional,1685,FTA,FTA,FTA
+498,Ayush TV,SD,Kannada Regional,1686,FTA,FTA,FTA
+499,Colors Gujarati,SD,Gujarati Regional,1702,Pay,5,5.9
+500,Colors Gujarati Cinema,SD,Gujarati Regional,1711,Pay,1,1.18
+501,TV9 Gujarati,SD,Gujarati Regional,1720,FTA,FTA,FTA
+502,Gujarat Samachar TV,SD,Gujarati Regional,1721,FTA,FTA,FTA
+503,Sandesh News,SD,Gujarati Regional,1722,FTA,FTA,FTA
+504,CNBC Bajaar,SD,Gujarati Regional,1724,Pay,1,1.18
+505,News18 Gujarati,SD,Gujarati Regional,1726,Pay,0.1,0.12
+506,ABP Asmita,SD,Gujarati Regional,1728,FTA,FTA,FTA
+507,VTV Gujarati,SD,Gujarati Regional,1729,FTA,FTA,FTA
+508,Zee 24 Kalak,SD,Gujarati Regional,1731,Pay,0.1,0.12
+509,India News Gujarat,SD,Gujarati Regional,1732,FTA,FTA,FTA
+510,Mantavya News,SD,Gujarati Regional,1734,FTA,FTA,FTA
+511,DD Girnar,SD,Gujarati Regional,1739,FTA,FTA,FTA
+512,Colors Oriya,SD,Odia Regional,1752,Pay,6,7.08
+513,Tarang TV,SD,Odia Regional,1754,Pay,10,11.8
+514,Zee Sarthak,SD,Odia Regional,1756,Pay,19,22.42
+515,Manjari,SD,Odia Regional,1760,FTA,FTA,FTA
+516,Alankar,SD,Odia Regional,1763,Pay,4,4.72
+517,OTV,SD,Odia Regional,1771,FTA,FTA,FTA
+518,Zee Odisha,SD,Odia Regional,1773,Pay,0.1,0.12
+519,Kanak News,SD,Odia Regional,1774,FTA,FTA,FTA
+520,News18 Odia,SD,Odia Regional,1776,Pay,0.1,0.12
+521,Kalinga TV,SD,Odia Regional,1777,FTA,FTA,FTA
+522,Prameya News 7,SD,Odia Regional,1778,FTA,FTA,FTA
+523,Nandighosha TV,SD,Odia Regional,1779,FTA,FTA,FTA
+524,Argus News,SD,Odia Regional,1780,FTA,FTA,FTA
+525,DD Odia,SD,Odia Regional,1785,FTA,FTA,FTA
+526,Tarang Music,SD,Odia Regional,1786,Pay,2,2.36
+527,Prarthana TV,SD,Odia Regional,1795,Pay,2,2.36
+528,Surya TV HD,HD,Malayalam Regional,1802,Pay,19,22.42
+529,Surya TV,SD,Malayalam Regional,1803,Pay,12,14.16
+530,Asianet HD,HD,Malayalam Regional,1806,Pay,19,22.42
+531,Asianet,SD,Malayalam Regional,1807,Pay,19,22.42
+532,Asianet Plus,SD,Malayalam Regional,1809,Pay,5,5.9
+533,Zee Keralam HD,HD,Malayalam Regional,1811,Pay,8,9.44
+534,Zee Keralam,SD,Malayalam Regional,1812,Pay,0.1,0.12
+535,Flowers,SD,Malayalam Regional,1814,Pay,10,11.8
+536,Amrita TV,SD,Malayalam Regional,1817,FTA,FTA,FTA
+537,Mazhavil Manorama HD,HD,Malayalam Regional,1818,FTA,FTA,FTA
+538,Mazhavil Manorama,SD,Malayalam Regional,1819,FTA,FTA,FTA
+539,Kairali TV,SD,Malayalam Regional,1820,FTA,FTA,FTA
+540,We TV,SD,Malayalam Regional,1822,FTA,FTA,FTA
+541,Naaptol Malayalam,SD,Malayalam Regional,1823,FTA,FTA,FTA
+542,Surya Movies,SD,Malayalam Regional,1826,Pay,11,12.98
+543,Asianet Movies,SD,Malayalam Regional,1828,Pay,15,17.7
+544,Surya Comedy,SD,Malayalam Regional,1830,Pay,4,4.72
+545,Safari TV,SD,Malayalam Regional,1838,FTA,FTA,FTA
+546,Asianet News,SD,Malayalam Regional,1841,FTA,FTA,FTA
+547,Kairali News,SD,Malayalam Regional,1842,FTA,FTA,FTA
+548,Manorama News,SD,Malayalam Regional,1843,FTA,FTA,FTA
+549,Mathrubhumi News,SD,Malayalam Regional,1844,FTA,FTA,FTA
+550,News18 Kerala,SD,Malayalam Regional,1846,Pay,0.1,0.12
+551,Jai Hind TV,SD,Malayalam Regional,1847,FTA,FTA,FTA
+552,Jeevan TV,SD,Malayalam Regional,1848,FTA,FTA,FTA
+553,Media One TV,SD,Malayalam Regional,1849,FTA,FTA,FTA
+554,Janam TV,SD,Malayalam Regional,1850,FTA,FTA,FTA
+555,Kaumudy,SD,Malayalam Regional,1851,FTA,FTA,FTA
+556,Raj News Malayalam,SD,Malayalam Regional,1853,FTA,FTA,FTA
+557,Twenty four,SD,Malayalam Regional,1854,FTA,FTA,FTA
+558,KITE Victers,SD,Malayalam Regional,1873,FTA,FTA,FTA
+559,DD Malayalam,SD,Malayalam Regional,1874,FTA,FTA,FTA
+560,Surya Music,SD,Malayalam Regional,1875,Pay,4,4.72
+561,Raj Musix Malayalam,SD,Malayalam Regional,1877,FTA,FTA,FTA
+562,Kappa TV,SD,Malayalam Regional,1878,FTA,FTA,FTA
+563,Goodness,SD,Malayalam Regional,1885,FTA,FTA,FTA
+564,God TV,SD,Malayalam Regional,1886,FTA,FTA,FTA
+565,SHALOM TV,SD,Malayalam Regional,1887,FTA,FTA,FTA
+566,Harvest TV 24x7,SD,Malayalam Regional,1888,FTA,FTA,FTA
+567,Zee Punjabi,SD,Punjabi Regional,1903,Pay,3,3.54
+568,PTC Punjabi,SD,Punjabi Regional,1906,FTA,FTA,FTA
+569,MH One,SD,Punjabi Regional,1907,FTA,FTA,FTA
+570,Pitaara TV,SD,Punjabi Regional,1911,FTA,FTA,FTA
+571,PTC Punjabi Gold,SD,Punjabi Regional,1912,FTA,FTA,FTA
+572,Zee Punjab Haryana Himachal Pradesh,SD,Punjabi Regional,1920,Pay,0.1,0.12
+573,PTC News,SD,Punjabi Regional,1921,FTA,FTA,FTA
+574,News18 Punjab Haryana Himachal,SD,Punjabi Regional,1922,Pay,0.1,0.12
+575,India News Punjab,SD,Punjabi Regional,1923,FTA,FTA,FTA
+576,India News Haryana,SD,Punjabi Regional,1924,FTA,FTA,FTA
+577,Janta TV,SD,Punjabi Regional,1925,FTA,FTA,FTA
+578,MH One News,SD,Punjabi Regional,1926,FTA,FTA,FTA
+579,ANB News,SD,Punjabi Regional,1927,FTA,FTA,FTA
+580,Living India News,SD,Punjabi Regional,1928,FTA,FTA,FTA
+581,DD Punjabi,SD,Punjabi Regional,1935,FTA,FTA,FTA
+582,PTC Chak De,SD,Punjabi Regional,1938,FTA,FTA,FTA
+583,Tashan,SD,Punjabi Regional,1939,FTA,FTA,FTA
+584,Balle Balle,SD,Punjabi Regional,1940,FTA,FTA,FTA
+585,PTC Music,SD,Punjabi Regional,1941,FTA,FTA,FTA
+586,Punjabi hits,SD,Punjabi Regional,1942,FTA,FTA,FTA
+587,Chardikla Time TV,SD,Punjabi Regional,1945,FTA,FTA,FTA
+588,PTC Simran,SD,Punjabi Regional,1946,FTA,FTA,FTA
+589,Nepal 1,SD,Others,1951,FTA,FTA,FTA
+590,Rang,SD,Others,1952,FTA,FTA,FTA
+591,Rengoni TV,SD,Others,1953,FTA,FTA,FTA
+592,Indradhanu,SD,Others,1961,FTA,FTA,FTA
+593,DY 365,SD,Others,1970,FTA,FTA,FTA
+594,News18 Assam North East,SD,Others,1971,Pay,0.1,0.12
+595,News Live,SD,Others,1973,FTA,FTA,FTA
+596,Protidin Time,SD,Others,1974,FTA,FTA,FTA
+597,Prag News,SD,Others,1975,FTA,FTA,FTA
+598,North East Live,SD,Others,1976,FTA,FTA,FTA
+599,NKTV 24x7,SD,Others,1977,FTA,FTA,FTA
+600,Hornbill TV,SD,Others,1978,FTA,FTA,FTA
+601,DD Port Blair,SD,Others,1985,FTA,FTA,FTA
+602,DD Arunprabha,SD,Others,1986,FTA,FTA,FTA
+603,DD Manipur,SD,Others,1987,FTA,FTA,FTA
+604,DD North East,SD,Others,1988,FTA,FTA,FTA
+605,DD Kashir,SD,Others,1989,FTA,FTA,FTA
+606,Ramdhenu,SD,Others,1990,FTA,FTA,FTA
